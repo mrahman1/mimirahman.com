@@ -1,0 +1,128 @@
+body {
+  color: rgb(58, 65, 69);
+  background-color: #f5f8fa;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 4em;
+}
+h2{
+  padding: 5px;
+}
+
+#banner{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0,0,0,.125);
+  padding: 2%;
+}
+
+#about-me{
+  background-color: white;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.square-100 {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.separator{
+  font-weight: 900;
+}
+
+.border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,.125);
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+#services{
+  clear: both;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.one-third{
+  float: left;
+  width: 33.3333333%;
+  margin: 0px auto;
+}
+
+.description{
+  text-align: center;
+  margin: 0 auto;
+}
+
+li{
+  text-align: center;
+  list-style-type: none;
+  width: 100%
+}
+
+.card{
+  margin: 20px;
+  background-color: white;
+  height: 300px;
+  padding: 20px;
+}
+
+.icon-wrap{
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 125%;
+  background-color: #85a0b5;
+}
+
+.icon-wrap i{
+  color: white;
+  font-size: 450%;
+  padding: 20%;
+}
+
+#projects{
+  clear: both;
+  background-color: white;
+  overflow: auto;
+  margin: 0 auto;
+
+}
+
+/* .audio-wrapper{
+  clear: both;
+  text-align: center;
+} */
+
+iframe{
+  margin: 10px;
+}
+
+#contact-me{
+  clear: both;
+  margin: 10px;
+  padding: 10px;
+}
+
+.one-third-audio{
+  display: inline-flex;
+  text-align: center;
+}
+
+.contact-icons{
+  font-size: 40px;
+}
