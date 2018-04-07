@@ -1,6 +1,6 @@
 body {
-  color: rgb(58, 65, 69);
-  background-color: #f5f8fa;
+  color: black;
+  background-color: white;
   text-align: center;
   font-family: 'Playfair Display', serif;
 }
@@ -8,22 +8,28 @@ body {
 h1{
   font-weight: bold;
   font-size: 4em;
+  color: #2b2929
 }
-h2{
-  padding: 5px;
+
+
+#tagline{
+  /* color: #834a59; */
+color: #611e3a;
+  font-weight: bold;
 }
 
 #banner{
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: rgba(0,0,0,.125);
-  padding: 2%;
+  position:relative;
+  height: 350px;
+  margin: 0px;
+  background-color:#fdeeeb;
 }
 
+
 #about-me{
-  background-color: white;
-  padding: 10px 0;
-  width: 100%;
+  height: 200px;
+  color: black;
+  border-style: dotted;
 }
 
 .square-100 {
@@ -35,26 +41,18 @@ h2{
     background-color: #fff;
 }
 
-.separator{
-  font-weight: 900;
-}
-
-.border {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(0,0,0,.125);
-}
-
 .circle {
     border-radius: 50%;
 }
 
 #services{
+  position:absolute;
   clear: both;
   text-align: center;
   overflow: hidden;
   position: relative;
   width: 100%;
+  color: black;
 }
 
 .one-third{
@@ -76,53 +74,84 @@ li{
 
 .card{
   margin: 20px;
-  background-color: white;
   height: 300px;
   padding: 20px;
+  border-radius: 5px;
 }
+
+
+ .card.one{
+   background-color: #f6eee1;
+ }
+
+ .card.two{
+     background-color: #fdeeeb
+ }
+
+ .card.three{
+     background-color: #ebbeb5;
+ }
 
 .icon-wrap{
   margin: 0 auto;
   width: 120px;
   height: 120px;
   border-radius: 125%;
-  background-color: #85a0b5;
+  background-color: white;
 }
 
 .icon-wrap i{
-  color: white;
+  color: #4a4949;
   font-size: 450%;
   padding: 20%;
 }
 
 #projects{
   clear: both;
-  background-color: white;
-  overflow: auto;
+  height: 300px;
   margin: 0 auto;
-
+  background-color: #f2ede9;
 }
 
-/* .audio-wrapper{
+.audio-wrapper{
   clear: both;
   text-align: center;
-} */
+  margin: 0 auto;
+  display: flex;
+  height: 70%
+}
 
 iframe{
   margin: 10px;
+  height: 100%;
+  border-style: solid;
+  border-radius: 5px;
 }
 
 #contact-me{
   clear: both;
   margin: 10px;
   padding: 10px;
+  text-align: center;
+  background-color: #dcf5da;
+
 }
 
 .one-third-audio{
-  display: inline-flex;
+  margin: 0 auto;
   text-align: center;
 }
 
 .contact-icons{
   font-size: 40px;
+  text-align: center;
+}
+
+.contact{
+  margin: 0 40px;
+}
+
+a{
+  text-decoration:none;
+  color: inherit;
 }
